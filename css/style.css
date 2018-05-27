@@ -1,0 +1,344 @@
+/*Sacha Gonzalez*/
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    background-color: #f5f5f5
+}
+
+p {
+    font-family: 'quicksand';
+    font-size: 20px;
+}
+
+.zwart {
+    background-color: #000
+}
+
+header, main, footer {
+    width: 1100px;
+    margin: 0px;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+
+.active a, nav a:hover {
+    border-bottom: 4px #fff solid; 
+    padding-bottom: 10px;
+}
+
+main { 
+    display: flex;
+    margin: auto;
+}
+
+
+h1 { font-family: 'Geometos';
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+h2 { margin: 0; padding: 0;}
+h3 { margin-top: 5px; padding: 5px;}
+
+
+#index {display: flex;}
+#identity {margin-top: auto;}
+#right p { 
+    font-size: 20px;
+    margin-top: 0;
+}
+#right { margin-top: 10px; margin-left: 20px;}
+
+#block {display: block;}
+
+#drop {display: flex;}
+#drop img { width: 500px; margin-top: 60px;}
+#drop p { padding: 0 20px;}
+
+#black-magic {margin-top: 40px;}
+#black-magic img { display: block; margin: auto;}
+#black-magic p { text-align: center; }
+
+.northdrop { 
+    width: 800px;
+    margin-top: 50px;
+}
+
+.vaultboys { 
+    display: flex; 
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+#boys { display: flex; flex-direction: column; padding: 0px 0; margin-left: auto; margin-right: auto; margin-top: 250px; margin-bottom: 250px;}
+#vaults { margin-left: auto; margin-right: auto; width: 830px;}
+#brian { width: 230px; padding: 0; margin: 0;}
+#sacha { width: 300px; margin-left: 20px; margin-right: 20px; }
+#dylan { width: 250px; padding: 0; margin: 0;}
+
+#boys p { text-align: center; margin: 10px;}
+
+.creative { display: flex; margin: 0; border-top: 4px #ed1650 solid; border-bottom: 4px #ed1650 solid; width: 100%;}
+#creative-space { padding: 0; width: 100%;}
+#creative-space p { margin-top: 0; text-align: center; padding: 0; }
+#creative-space img { margin-left: auto; margin-right: auto; width: 100%}
+
+.heroes { margin-top: 200px; margin-bottom: 200px; }
+#art1 { width: 800px;}
+#art2 { height: 397px; }
+.heroes p {text-align: center; }
+
+
+
+#cube {display: flex; text-align: center; margin-top: 200px; margin-bottom: 250px; }
+#cubeimg { flex-wrap: wrap; width: 700px;}
+#cube-txt { 
+    padding: 0 20px; 
+    margin-top: auto; 
+    margin-bottom: auto;
+    margin-left: 20px;
+    background-color: #f5f5f540;
+    color: white;
+    border-bottom: 4px #ed1651 solid; 
+    border-top: 4px #ed1651 solid; 
+}
+
+#mainbeelden-cube {flex-direction: column; width: 100%; background-image: url(../images/beelden/achtergrond.jpg);}
+
+#mainbeelden-penrose {flex-direction: column; width: 100%; background-image: url(../images/beelden/triangle%20mountains%204.jpg);}
+
+#rose { display: flex; text-align: center; margin-top: 250px; margin-bottom: 150px; justify-content: flex-end;}
+#penrose {width 300px;}
+#penrose-txt { 
+    padding: 0 20px; 
+    margin-top: auto; 
+    margin-bottom: auto;
+    margin-left: 20px;
+    background-color: #f5f5f540;
+    color: white;
+    border-bottom: 4px #ed1651 solid; 
+    border-top: 4px #ed1651 solid; 
+}
+
+
+
+#home {display: flex; margin-top: 200px; margin-bottom: 250px;}
+#home-txt {margin: 20px;}
+
+.homeslide { 
+    display: block;
+    width: 787px;
+    height: 519px;
+    overflow: hidden;
+    position: relative;
+}
+
+.homeslide > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+#homeslide:nth-child(1) {
+    left:  0%;
+    animation-delay: -1s;
+    background-image: url(../images/boeken-flyers/kookboek/boek1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#homeslide:nth-child(2) {
+    left:  0%;
+    animation-delay: 2s;
+    background-image: url(../images/boeken-flyers/kookboek/boek2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#homeslide:nth-child(3) {
+    animation-delay: 5s;
+    background-image: url(../images/boeken-flyers/kookboek/mockup1.png);
+    background-size: cover;
+    background-position: center;
+}
+#homeslide:nth-child(4) {
+    left:  0%;
+    animation-delay: 8s;
+    background-image: url(../images/boeken-flyers/kookboek/mockup2.png);
+    background-size: cover;
+    background-position: center;
+}
+@keyframes slide {
+    0% { left: 100%; width: 100%;}
+    5% { left: 0%;}
+    25% { left: 0%;}
+    30% { left: -100%; width: 100%;}
+    30.0001% { left: -100%; width: 0%;}
+    100% { left: 100%; width: 0%;}
+}
+
+
+
+#fusion { display: flex; margin-bottom: 300px;}
+#fusion-txt {margin: 20px;}
+#fusion-txt img {width: 100%;}
+
+.fusionslide { 
+    display: block;
+    width: 536px;
+    height: 758px;
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+.fusionslide > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+#fusionslide:nth-child(1) {
+    left:  0%;
+    animation-delay: -1s;
+    background-image: url(../images/boeken-flyers/huisstijlboek/fusion1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#fusionslide:nth-child(2) {
+    left:  0%;
+    animation-delay: 2s;
+    background-image: url(../images/boeken-flyers/huisstijlboek/fusion2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#fusionslide:nth-child(3) {
+    animation-delay: 5s;
+    background-image: url(../images/boeken-flyers/huisstijlboek/fusion3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#fusionslide:nth-child(4) {
+    left:  0%;
+    animation-delay: 8s;
+    background-image: url(../images/boeken-flyers/huisstijlboek/fusion4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@keyframes slide {
+    0% { left: 100%; width: 100%;}
+    5% { left: 0%;}
+    25% { left: 0%;}
+    30% { left: -100%; width: 100%;}
+    30.0001% { left: -100%; width: 0%;}
+    100% { left: 100%; width: 0%;}
+}
+
+
+#expix {margin-bottom: 150px;}
+
+#space {display: flex; text-align: right; margin-bottom: 100px;}
+#space-txt { padding: 0 20px; margin-top: auto; margin-bottom: auto;}
+
+#contactpage {display: flex; margin-top: 200px;;}
+
+#adress img {width: 2%}
+#adress a { 
+    color: #ed1651;
+    font-family: 'quicksand';
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px; }
+
+
+.comment {
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+textarea {
+    width: 30em;
+    height: 2em;
+}
+
+.comment p {
+    vertical-align: top;
+}
+
+.vraag textarea {
+    height: 10em;
+}
+
+#verzenden {width: 100%; height: 50px; background-color: #ed1651; color: white;}
+
+@media screen and (max-width:1099px){
+    main, header {width: 100%;}
+    header {height: 5%;}
+    header a {font-size: 30px;}
+    #identity {width: 50%; margin-top: auto; margin-left: auto; margin-right: auto;}
+    #index {flex-direction: column-reverse;}
+    #right { margin-left: 5%; margin-right: 5%;}
+    #quote {text-align: center;}
+    #quote h1 {font-size: 200%}
+    #quote h2 {font-size: 100%;}
+    #quote p {font-size: 80%}
+    #drop {display:block; }
+    #drop img { display: block; margin-top: 5%; margin-left: auto; margin-right: auto; width: 100%; }
+    #drop p {margin-right: 5%; margin-left: 5%;}
+    #black-magic img {width: 90%;}
+    #black-magic p {text-align: left; margin-left: 5%; margin-right: 5%;}
+    #boys {width: 100%; margin-top: 2%;}
+    #vaults {width: 80%;}
+    #sacha {width: 80%; margin-left: 10%; margin-right: 10%;}
+    #brian {width: 20%; margin-left: 40%; margin-right: 40%;}
+    #dylan {width: 20%; margin-left: 40%; margin-right: 40%;}
+    #boys p {width: 90%; margin-left: 5%; margin-right: 5%;}
+    #creative-space p {margin-left: 5%; margin-right: 5%;}
+    .heroes {margin-top: 5%; margin-bottom: 5%;}
+    #art1 {width: 80%; margin-left: 10%; margin-right: 10%;}
+    #art2 {width: 80%; height: 80%; margin-left: 10%; margin-right: 10%;}
+    #cube {display: block; margin-top: 3%; margin-bottom: 10%;}
+    #cubeimg {width: 90%; height: auto; margin-left: auto; margin-right: auto; margin-bottom: 5%;}
+    #cube-txt {margin-left: 5%; margin-right: 5%; padding: 1%;}
+    #rose {display: block; margin-top: 1%; margin-bottom: 10%;}
+    #penrose {width: 90%; height: auto; margin-left: auto; margin-right: auto; margin-bottom: 0;}
+    #penrose-txt {margin-left: 10%; margin-right: 10%; padding: 1%;}
+    #home {display: block; margin-left: auto; margin-right: auto; width: 80%;}
+    .homeslide {width: 100%; margin-top: 10%; margin-left: auto; margin-right: auto;}
+    #fusion {display: block; margin-top: 40%; margin-left: auto; margin-right: auto; width: 80%;}
+    .fusionslide {margin-left: auto; margin-right: auto;}
+    #expix {width: 80%; margin-left: auto; margin-right: auto;}
+    #expix img {width: 100%;}
+    #space {width: 80%; flex-direction: column-reverse; margin-left: auto; margin-right: auto;}
+    #spaceage { margin-left: auto; margin-right: auto;}
+    #space-txt {text-align: center; }
+    #contactpage {flex-direction: column; }
+    #adress {width: 80%; margin-left: auto; margin-right: auto; margin-top: 10%;}
+    #adress img {width: 5%;}
+    #contact {width: 80%; margin-top: 10%; margin-left: auto; margin-right: auto;}
+    #contactpage {margin-top: 0;}
+    textarea {width: 80%;}
+    #verzenden {width: 100%; height: 50%; font-size: 300%; margin-bottom: 10%;}
+}
