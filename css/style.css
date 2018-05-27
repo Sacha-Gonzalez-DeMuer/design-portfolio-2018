@@ -2,12 +2,12 @@
 
 @font-face {
  font-family: 'quicksand';
-  src: url(Quicksand-Light.ttf);
+  src: url(quicksand.otf);
 }
 
 @font-face {
     font-family: 'Geometos';
-    src: url(Geometos.ttf)
+    src: url(Geometos.ttf);
 }
 
 body {
