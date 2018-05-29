@@ -127,7 +127,7 @@ h3 { margin-top: 5px; padding: 5px;}
     margin-top: auto; 
     margin-bottom: auto;
     margin-left: 20px;
-    background-color: #f5f5f540;
+    background-color: rgba(245, 245, 245, 0.2);
     color: white;
     border-bottom: 4px #ed1651 solid; 
     border-top: 4px #ed1651 solid; 
@@ -138,13 +138,12 @@ h3 { margin-top: 5px; padding: 5px;}
 #mainbeelden-penrose {flex-direction: column; width: 100%; background-image: url(../images/beelden/triangle%20mountains%204.jpg);}
 
 #rose { display: flex; text-align: center; margin-top: 250px; margin-bottom: 150px; justify-content: flex-end;}
-#penrose {width 300px;}
 #penrose-txt { 
     padding: 0 20px; 
     margin-top: auto; 
     margin-bottom: auto;
     margin-left: 20px;
-    background-color: #f5f5f540;
+    background-color: rgba(245, 245, 245, 0.4);
     color: white;
     border-bottom: 4px #ed1651 solid; 
     border-top: 4px #ed1651 solid; 
